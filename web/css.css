@@ -27,13 +27,13 @@ x-post iframe {
 x-subs {
 	--shadow-core: rgba(0, 0, 0, 0.5);
 	--shadow-outline: rgba(0, 0, 0, 0.25);
-	filter: blur(0.25px);
+	filter: blur(0.5px);
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	margin: auto;
-	padding: 10% 0;
+	padding: 12.5% 0;
 	color: #cfe4e9;
 	font-family: 'slider', sans-serif;
 	font-size: 24px;
@@ -42,8 +42,8 @@ x-subs {
 	text-align: center;
 	opacity: 0.9;
 	line-height: 1.4;
-	letter-spacing: 0.05em;
-	transform: scaleX(0.8);
+	letter-spacing: 0.075em;
+	transform: scaleX(0.75);
 	text-shadow: 1px 0 2px var(--shadow-outline), -1px 0 2px var(--shadow-outline),
 		0 1px 2px var(--shadow-outline), 0 -1px 2px var(--shadow-outline),
 		0 -2px 4px var(--shadow-core);
