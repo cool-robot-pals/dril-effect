@@ -35,10 +35,6 @@ describe('addSubtitles', () => {
 		addSubtitles($where, 'yolo');
 		expect($where.innerHTML).toMatch('yolo');
 	});
-	it('should add em subtitles', async () => {
-		addSubtitles($where, 'yolo em', true);
-		expect($where.classList.add.mock.calls[0][0]).toEqual('em');
-	});
 });
 
 describe('logOutput', () => {
