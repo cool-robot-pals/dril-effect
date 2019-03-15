@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const getPost = require('./screenshot');
-const config = require('../.hellarc');
+const config = require('../.normandyrc');
 const twitterLite = require('twitter-lite');
 const twitter = require('twitter');
 const fs = require('fs');

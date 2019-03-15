@@ -6,7 +6,7 @@ module.exports = {
 		test: 1995,
 	},
 	names: {
-		screenie: 'pompidou',
+		screenie: 'javik',
 	},
 	paths: {
 		out: path.resolve(__dirname, 'out'),

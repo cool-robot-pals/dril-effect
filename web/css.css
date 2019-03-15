@@ -1,6 +1,6 @@
 @font-face {
-	font-family: 'helvetihand';
-	src: url('./helvetihand.ttf');
+	font-family: 'slider';
+	src: url('./slide.ttf');
 }
 
 * {
@@ -25,7 +25,7 @@ x-post iframe {
 }
 
 x-subs {
-	--shadow-core: rgba(0, 0, 0, .5);
+	--shadow-core: rgba(0, 0, 0, 0.5);
 	--shadow-outline: rgba(0, 0, 0, 0.25);
 	filter: blur(0.25px);
 	position: absolute;
@@ -33,20 +33,18 @@ x-subs {
 	left: 0;
 	right: 0;
 	margin: auto;
-	padding: 3.5% 10%;
-	color: #fff;
-	font-family: 'helvetihand', cursive;
-	font-size: 36px;
+	padding: 10% 10%;
+	color: #cfe4e9;
+	font-family: 'slider', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
 	pointer-events: none;
 	text-align: center;
 	opacity: 0.9;
-	letter-spacing: .25px;
-	line-height: 1.2;
+	line-height: 1.4;
+	letter-spacing: 0.05em;
+	transform: scaleX(0.8);
 	text-shadow: 1px 0 2px var(--shadow-outline), -1px 0 2px var(--shadow-outline),
 		0 1px 2px var(--shadow-outline), 0 -1px 2px var(--shadow-outline),
 		0 -2px 4px var(--shadow-core);
-}
-
-x-subs.em {
-	font-style: italic;
 }

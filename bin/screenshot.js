@@ -1,5 +1,5 @@
 const server = require('../src/express.js');
-const config = require('../.hellarc');
+const config = require('../.normandyrc');
 const puppeteer = require('puppeteer');
 const chalk = require('chalk');
 const fs = require('fs-extra');

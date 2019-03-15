@@ -10,7 +10,6 @@ const getSeekableRandomSpot = player => {
 
 const addSubtitles = ($where, post, monologue = false) => {
 	$where.innerHTML = post;
-	if (monologue) $where.classList.add('em');
 };
 
 const makeYoutubePlayer = (youtube, { $video, video }) =>
